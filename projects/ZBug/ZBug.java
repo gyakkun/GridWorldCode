@@ -40,6 +40,7 @@ public class ZBug extends Bug {
         sideLength = length - 1;
         crossLineLength = (int) Math.sqrt(length
                 * length * 2) - 2;
+        this.setDirection(Location.EAST);
     }
 
     /*
@@ -66,7 +67,7 @@ public class ZBug extends Bug {
             if (steps == sideLength) {
                 turnOrNot = true;
             }
-            if (turnOrNot == true) {
+            if (turnOrNot) {
                 for (int ctr = 0; ctr < 3; ctr++)
                     turn();
                 sideOfZ = (sideOfZ + 1) % 3;
