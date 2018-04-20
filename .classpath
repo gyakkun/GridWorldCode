@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="projects/firstProject"/>
+	<classpathentry kind="src" path="projects/circleBug"/>
+	<classpathentry kind="src" path="projects/spiralBug"/>
+	<classpathentry kind="src" path="projects/boxBug"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="gridworld.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
