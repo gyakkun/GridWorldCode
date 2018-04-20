@@ -28,14 +28,14 @@ import java.util.ArrayList;
  * This class is not tested on the AP CS A and AB exams.
  */
 
-public class UnBoundedActorWorld extends World<Actor>
+public class UnBoundedGridWorld extends World<Actor>
 {    
     private static final String DEFAULT_MESSAGE = "Click on a grid location to construct or manipulate an actor.";
     
     /**
      * Constructs an actor world with a default grid.
      */
-    public UnBoundedActorWorld()
+    public UnBoundedGridWorld()
     {
     }
 
@@ -43,7 +43,7 @@ public class UnBoundedActorWorld extends World<Actor>
      * Constructs an actor world with a given grid.
      * @param grid the grid for this world.
      */
-    public UnBoundedActorWorld(UnboundedGrid<Actor> grid)
+    public UnBoundedGridWorld(UnboundedGrid<Actor> grid)
     {
         super(grid);
     }
