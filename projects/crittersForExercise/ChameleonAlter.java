@@ -29,7 +29,7 @@ import java.util.ArrayList;
  * it moves through the grid. <br />
  * The implementation of this class is testable on the AP CS A and AB exams.
  */
-public class ChameleonCritterAlter extends Critter {
+public class ChameleonAlter extends Critter {
 	
 	private static final double DARKENING_FACTOR = 0.05;
 	

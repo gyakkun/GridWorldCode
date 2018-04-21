@@ -40,8 +40,8 @@ public class ChameleonAlterRunner
         world.add(new Location(5, 5), new Flower(Color.PINK));
         world.add(new Location(1, 5), new Flower(Color.RED));
         world.add(new Location(7, 2), new Flower(Color.YELLOW));
-        world.add(new Location(4, 4), new ChameleonCritterAlter());
-        world.add(new Location(5, 8), new ChameleonCritterAlter());
+        world.add(new Location(4, 4), new ChameleonAlter());
+        world.add(new Location(5, 8), new ChameleonAlter());
         world.show();
     }
 }

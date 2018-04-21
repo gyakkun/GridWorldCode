@@ -27,11 +27,9 @@ import java.util.Arrays;
  */
 public class DancingBug extends Bug {
 	private int steps;
-	private int sideNum;
 	private int sideLength;
 	private int whichTurn;
 	private int[] turnsNumArr;
-	private int sideOfZ = 0; // Can be 0,1,2, correspond with
 	// the "Z"'s three sides.
 
 	/**
