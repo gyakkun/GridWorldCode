@@ -4,12 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="2/2 Jumper Class and JumperRunner finished.">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" afterDir="false" />
+    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,9 +37,40 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5060144">
+    <splitter split-orientation="horizontal" split-proportion="0.48016998">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="BlusterCritter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#464#471#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CritterRunner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/critters/CritterRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ChameleonAlterRunner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonAlterRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="RockHound.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/RockHound.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -59,26 +89,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlusterCritter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
+          <file leaf-file-name="CrabRunner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/critters/CrabRunner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="666">
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="168">
+                  <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Critter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java">
+          <file leaf-file-name="BlusterRunner.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-                  <folding>
-                    <element signature="docComment;method#getActors#0;class#Critter#0" />
-                  </folding>
+                <state relative-caret-position="294">
+                  <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -90,8 +114,8 @@
           <file leaf-file-name="CrabCritter.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projects/critters/CrabCritter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+                <state relative-caret-position="420">
+                  <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +123,8 @@
           <file leaf-file-name="Critter.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-105">
-                  <caret line="92" column="7" lean-forward="true" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+                <state relative-caret-position="546">
+                  <caret line="42" column="21" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
                   <folding>
                     <element signature="docComment;method#getActors#0;class#Critter#0" />
                   </folding>
@@ -111,8 +135,8 @@
           <file leaf-file-name="Actor.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Actor.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-64">
-                  <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+                <state relative-caret-position="294">
+                  <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#5331#5332#0" expanded="true" />
@@ -134,11 +158,20 @@
           <file leaf-file-name="Location.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/Location.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+                <state relative-caret-position="2037">
+                  <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#7644#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ChameleonAlter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonAlter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="260">
+                  <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -157,7 +190,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>flower</find>
-      <find>act()</find>
       <find>isValid</find>
       <find>getOccupiedLocations</find>
       <find>ChameleonCritter</find>
@@ -166,6 +198,10 @@
       <find>get</find>
       <find>getloca</find>
       <find>grid</find>
+      <find>getNeighbors</find>
+      <find>act</find>
+      <find>act()</find>
+      <find>processactors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,6 +218,7 @@
         <option value="$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" />
         <option value="$PROJECT_DIR$/projects/critters/CrabCritter.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" />
+        <option value="$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java" />
       </list>
     </option>
   </component>
@@ -200,7 +237,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="54" />
     <option name="width" value="1523" />
     <option name="height" value="1026" />
@@ -279,14 +316,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RockHoundRunner">
-    <configuration name="ChameleonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChameleonRunner" />
+  <component name="RunManager" selected="Application.BlusterRunner">
+    <configuration name="BlusterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlusterRunner" />
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CircleBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircleBugRunner" />
+    <configuration name="ChameleonRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChameleonRunner" />
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -347,19 +384,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CircleBugRunner" />
       <item itemvalue="Application.JumperRunner" />
       <item itemvalue="Application.CritterRunner" />
       <item itemvalue="Application.ChameleonRunner" />
       <item itemvalue="Application.RockHoundRunner" />
+      <item itemvalue="Application.BlusterRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlusterRunner" />
         <item itemvalue="Application.RockHoundRunner" />
         <item itemvalue="Application.ChameleonRunner" />
         <item itemvalue="Application.CritterRunner" />
         <item itemvalue="Application.JumperRunner" />
-        <item itemvalue="Application.CircleBugRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +415,7 @@
       <workItem from="1524272495049" duration="3657000" />
       <workItem from="1524277071414" duration="2649000" />
       <workItem from="1524300546204" duration="6923000" />
-      <workItem from="1524328520438" duration="2283000" />
+      <workItem from="1524328520438" duration="3997000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -401,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524301139499</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3.5/5 Critter Alter: Creation and methods for BlusterCrittter class.">
+      <created>1524330903532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524330903533</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18774000" />
+    <option name="totallyTimeSpent" value="20488000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -417,7 +461,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="54" width="1523" height="1026" extended-state="4" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3180851" />
@@ -428,13 +473,14 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994641" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33076924" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="right" id="调色板" order="4" />
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.4994641" weight="0.32978722" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15112321" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330118" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.406181" />
@@ -444,7 +490,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,7 +532,8 @@
     <MESSAGE value="1/2 Jumper Class." />
     <MESSAGE value="1/2 Jumper Class AGAIN.&#10;&#10;Delete the former implement based on Actor class. Rebased on Bug class." />
     <MESSAGE value="2/2 Jumper Class and JumperRunner finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="2/2 Jumper Class and JumperRunner finished." />
+    <MESSAGE value="3.5/5 Critter Alter: Creation and methods for BlusterCrittter class." />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5/5 Critter Alter: Creation and methods for BlusterCrittter class." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -506,40 +552,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/Jumper/Jumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/critters/CritterRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="docComment;method#getActors#0;class#Critter#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrameResources.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonCritterAlter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -607,6 +619,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,6 +665,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
           <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,6 +757,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/critters/CritterRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/Jumper/Jumper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -844,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="2037">
+          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
           <folding>
             <element signature="e#0#7644#0" expanded="true" />
           </folding>
@@ -854,30 +868,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/critters/CrabCritter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonAlter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="62" column="35" lean-forward="true" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="546">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="docComment;method#getActors#0;class#Critter#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Actor.java">
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5331#5332#0" expanded="true" />
-            <element signature="e#5398#5399#0" expanded="true" />
+            <element signature="e#464#471#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/critters/CritterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonAlterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -895,13 +929,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
+    <entry file="file://$PROJECT_DIR$/projects/critters/CrabRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="168">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5331#5332#0" expanded="true" />
+            <element signature="e#5398#5399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
