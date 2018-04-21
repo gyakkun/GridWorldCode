@@ -1,4 +1,5 @@
 import info.gridworld.actor.Actor;
+import info.gridworld.actor.Bug;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
 
@@ -9,7 +10,7 @@ import java.awt.Color;
  * it moves. <br />
  * The implementation of this class is testable on the AP CS A and AB exams.
  */
-public class Jumper extends Actor {
+public class Jumper extends Bug {
     /**
      * Constructor
      */
@@ -19,6 +20,7 @@ public class Jumper extends Actor {
 
     /**
      * Constructor with color parameter.
+     *
      * @param jumperColor the color for this
      *                    jumping bug.
      */
@@ -26,43 +28,40 @@ public class Jumper extends Actor {
         setColor(jumperColor);
     }
 
+
     /**
-     * Moves if it can move, turns otherwise.
+     * To act as a jumper.
      */
-    public void act() {
-        if (canMove())
-            move();
+    public void actAsAJumper() {
+        if (canJump())
+            jump();
         else
             turn();
     }
 
-    /**
-     * Turns the bug 45 degrees to the right without changing its
-     * location.
-     */
-    public void turn() {
-        setDirection(getDirection()
-                + Location.HALF_RIGHT);
-    }
-
 
     /**
-     * Moves the bug forward by two cells , no flower will be
-     * putting into the location it previously occupied.
+     * The jumper should jump over flowers and rocks.
      */
-    public void move() {
+    public void jump() {
         Grid<Actor> gr = getGrid();
         if (gr == null)
             return;
         Location loc = getLocation();
-        Location next = loc.getAdjacentLocation(getDirection());
-        if (gr.isValid(next))
-            moveTo(next);
-        else
+        Location nextFirst = loc.getAdjacentLocation(getDirection());
+        if (gr.isValid(nextFirst)) {
+            Location nextSecond = nextFirst.getAdjacentLocation(getDirection());
+            if (gr.isValid(nextSecond))
+                moveTo(nextSecond);
+        } else
             removeSelfFromGrid();
     }
 
-    public boolean canMove(){
+    /**
+     * Determine the jumper can jump or not.
+     */
+    public boolean canJump() {
         return true;
     }
+
 }
