@@ -8,6 +8,7 @@
       <src_folder value="file://$MODULE_DIR$/projects/spiralBug" expected_position="2" />
       <src_folder value="file://$MODULE_DIR$/projects/boxBug" expected_position="3" />
       <src_folder value="file://$MODULE_DIR$/projects/ZBug" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/projects/dancingBug" expected_position="5" />
     </src_description>
   </component>
   <component name="NewModuleRootManager">
@@ -19,6 +20,8 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/spiralBug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/boxBug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/ZBug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/dancingBug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/Jumper" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />

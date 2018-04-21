@@ -19,7 +19,7 @@
 import info.gridworld.actor.ActorWorld;
 import info.gridworld.grid.Location;
 
-import java.awt.Color;
+import java.awt.*;
 
 /**
  * This class runs a world that contains box bugs. <br />
