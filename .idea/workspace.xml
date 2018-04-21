@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" afterDir="false" />
+    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="LF -&gt; CRLF">
       <change beforePath="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -80,11 +77,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RockHoundRunner.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="RockHoundRunner.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+                <state relative-caret-position="420">
+                  <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -98,7 +95,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BlusterRunner.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BlusterRunner.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="294">
@@ -214,11 +211,11 @@
         <option value="$PROJECT_DIR$/projects/Jumper/JumperRunner.java" />
         <option value="$PROJECT_DIR$/framework/info/gridworld/actor/Critter.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/ChameleonCritterAlter.java" />
-        <option value="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" />
         <option value="$PROJECT_DIR$/projects/critters/CrabCritter.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/BlusterRunner.java" />
+        <option value="$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java" />
       </list>
     </option>
   </component>
@@ -415,7 +412,7 @@
       <workItem from="1524272495049" duration="3657000" />
       <workItem from="1524277071414" duration="2649000" />
       <workItem from="1524300546204" duration="6923000" />
-      <workItem from="1524328520438" duration="3997000" />
+      <workItem from="1524328520438" duration="4255000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -445,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524330903533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4/5 Critter Alter: BlusterRunner finished.">
+      <created>1524332623172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524332623172</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20488000" />
+    <option name="totallyTimeSpent" value="20746000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -473,11 +477,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4994641" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="right" id="调色板" order="4" />
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.4994641" weight="0.32978722" />
       <window_info id="Capture Tool" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330118" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
@@ -533,7 +537,8 @@
     <MESSAGE value="1/2 Jumper Class AGAIN.&#10;&#10;Delete the former implement based on Actor class. Rebased on Bug class." />
     <MESSAGE value="2/2 Jumper Class and JumperRunner finished." />
     <MESSAGE value="3.5/5 Critter Alter: Creation and methods for BlusterCrittter class." />
-    <option name="LAST_COMMIT_MESSAGE" value="3.5/5 Critter Alter: Creation and methods for BlusterCrittter class." />
+    <MESSAGE value="4/5 Critter Alter: BlusterRunner finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="4/5 Critter Alter: BlusterRunner finished." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -890,17 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#464#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/critters/CritterRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -919,13 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -952,6 +939,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/BlusterCritter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
