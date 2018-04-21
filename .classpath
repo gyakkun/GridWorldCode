@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="projects/boxBug"/>
 	<classpathentry kind="src" path="projects/ZBug"/>
 	<classpathentry kind="src" path="projects/dancingBug"/>
+	<classpathentry kind="src" path="projects/crittersForExercise"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="gridworld.jar"/>
 	<classpathentry kind="output" path="bin"/>
