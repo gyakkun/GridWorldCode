@@ -2,6 +2,8 @@ import info.gridworld.actor.Actor;
 import info.gridworld.actor.Bug;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
+import info.gridworld.actor.Flower;
+import info.gridworld.actor.Rock;
 
 import java.awt.Color;
 
@@ -32,9 +34,11 @@ public class Jumper extends Bug {
     /**
      * To act as a jumper.
      */
-    public void actAsAJumper() {
+    public void act() {
         if (canJump())
             jump();
+        //else if(canMove())
+        //    move();
         else
             turn();
     }
@@ -61,7 +65,18 @@ public class Jumper extends Bug {
      * Determine the jumper can jump or not.
      */
     public boolean canJump() {
-        return true;
+        Grid<Actor> gr = getGrid();
+        if (gr == null)
+            return false;
+        Location loc = getLocation();
+        Location nextFirst = loc.getAdjacentLocation(getDirection());
+        Location nextSecond = nextFirst.getAdjacentLocation(getDirection());
+        if (!gr.isValid(nextFirst))
+            return false;
+        if (!gr.isValid(nextSecond))
+            return false;
+        Actor neighbor = gr.get(nextSecond);
+        return (neighbor == null) || (neighbor instanceof Flower);
     }
 
 }
