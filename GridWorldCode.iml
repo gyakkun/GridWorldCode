@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/Jumper" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/critters" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/crittersForExercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/sparseBoundedGrid" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
