@@ -28,6 +28,10 @@ import info.gridworld.grid.Location;
  */
 public class KingCrabRunner
 {
+	
+	private KingCrabRunner() {
+		;
+	}
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();

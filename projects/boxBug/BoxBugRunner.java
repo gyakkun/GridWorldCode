@@ -25,8 +25,13 @@ import java.awt.*;
  * This class runs a world that contains box bugs. <br />
  * This class is not tested on the AP CS A and AB exams.
  */
-public class BoxBugRunner
+public final class BoxBugRunner
 {
+	
+	private BoxBugRunner() {
+		;
+	}
+	
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();

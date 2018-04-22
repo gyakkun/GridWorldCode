@@ -5,6 +5,10 @@ import info.gridworld.actor.Flower;
 
 public class JumperRunner {
 
+	private JumperRunner() {
+		;
+	}
+	
     public static void main(String[] args) {
         ActorWorld world = new ActorWorld();
         Jumper bob = new Jumper();

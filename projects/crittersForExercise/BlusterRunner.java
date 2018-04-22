@@ -30,6 +30,10 @@ import java.awt.*;
  */
 public class BlusterRunner
 {
+	private BlusterRunner() {
+		;
+	}
+	
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();

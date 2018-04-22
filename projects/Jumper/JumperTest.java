@@ -17,13 +17,12 @@ import info.gridworld.grid.Location;
  */
 class JumperTest {
 
-	private static Jumper _jumper;
+	private static Jumper jumperTest;
 	
 	@Before
 	
 	public void setUp() throws Exception{
-		_jumper = new Jumper();
-		System.out.println("New Jumper instance created for _jumper.");
+		jumperTest = new Jumper();
 	}
 	
 	/**
@@ -32,12 +31,12 @@ class JumperTest {
 	@Test
 	void testAct() {
 		Location location = new Location(0, 0);
-		_jumper = new Jumper();
-		_jumper.moveTo(location);
-		_jumper.setDirection(Location.EAST);
-		_jumper.act();
+		jumperTest = new Jumper();
+		jumperTest.moveTo(location);
+		jumperTest.setDirection(Location.EAST);
+		jumperTest.act();
 		Location newLoc = new Location(0, 2);
-		assertEquals(newLoc, _jumper.getLocation() );
+		assertEquals(newLoc, jumperTest.getLocation() );
 	}
 
 	/**
@@ -45,9 +44,9 @@ class JumperTest {
 	 */
 	@Test
 	void testJumper() {
-		_jumper = null;
-		_jumper = new Jumper();
-		assertEquals(Color.cyan, _jumper.getColor());
+		jumperTest = null;
+		jumperTest = new Jumper();
+		assertEquals(Color.cyan, jumperTest.getColor());
 	}
 
 	/**
@@ -55,9 +54,9 @@ class JumperTest {
 	 */
 	@Test
 	void testJumperColor() {
-		_jumper = null;
-		_jumper = new Jumper(Color.PINK);
-		assertEquals(Color.PINK, _jumper.getColor());
+		jumperTest = null;
+		jumperTest = new Jumper(Color.PINK);
+		assertEquals(Color.PINK, jumperTest.getColor());
 	}
 
 	/**
@@ -66,11 +65,11 @@ class JumperTest {
 	@Test
 	void testJump() {
 		Location location = new Location(0, 0);
-		_jumper.moveTo(location);
-		_jumper.setDirection(Location.EAST);
-		_jumper.jump();
+		jumperTest.moveTo(location);
+		jumperTest.setDirection(Location.EAST);
+		jumperTest.jump();
 		Location newLoc = new Location(0, 2);
-		assertEquals(newLoc,_jumper.getLocation());
+		assertEquals(newLoc,jumperTest.getLocation());
 	}
 
 	/**
@@ -79,12 +78,9 @@ class JumperTest {
 	@Test
 	void testCanJump() {
 		Location location = new Location(0, 0);
-		_jumper.moveTo(location);
-		_jumper.setDirection(Location.NORTH);
-		//_jumper.act();
-		//Location newLoc = new Location(0, 2);
-		//assertEquals(_jumper.getLocation(), newLoc);
-		assertEquals(false, _jumper.canJump());
+		jumperTest.moveTo(location);
+		jumperTest.setDirection(Location.NORTH);
+		assertEquals(false, jumperTest.canJump());
 	}
 
 }

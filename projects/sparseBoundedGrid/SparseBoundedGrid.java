@@ -8,125 +8,107 @@ import java.util.LinkedList;
 
 public class SparseBoundedGrid<E> extends AbstractGrid<E> {
 
-    private ArrayList<LinkedList> ocpArr;
-    private int numCols;
-    private int numRows;
+	private ArrayList<LinkedList> ocpArr;
+	private int numCols;
+	private int numRows;
 
-    public SparseBoundedGrid(int rows, int cols) {
-        if (rows <= 0)
-            throw new IllegalArgumentException("rows <= 0");
-        if (cols <= 0)
-            throw new IllegalArgumentException("cols <= 0");
-        numCols = cols;
-        numRows = rows;
-        ocpArr = new ArrayList<LinkedList>();
-        for (int ctr = 0; ctr < rows; ctr++) {
-            ocpArr.add(new LinkedList<OccupantInCol>());
-        }
-    }
+	public SparseBoundedGrid(int rows, int cols) {
+		if (rows <= 0)
+			throw new IllegalArgumentException("rows <= 0");
+		if (cols <= 0)
+			throw new IllegalArgumentException("cols <= 0");
+		numCols = cols;
+		numRows = rows;
+		ocpArr = new ArrayList<LinkedList>();
+		for (int ctr = 0; ctr < rows; ctr++) {
+			ocpArr.add(new LinkedList<OccupantInCol>());
+		}
+	}
 
-    public int getNumRows() {
-        return numRows;
-    }
+	public int getNumRows() {
+		return numRows;
+	}
 
-    public int getNumCols() {
-        return numCols;
-    }
+	public int getNumCols() {
+		return numCols;
+	}
 
-    public boolean isValid(Location location) {
+	public boolean isValid(Location location) {
 
-//        System.out.println("Location is : " + location.toString());
-//
-//        System.out.println("We have" + getNumRows() + "Rows");
-//
-//        System.out.println("We have" + getNumCols() + "Cols");
+		if (location.getRow() >= 0 && location.getRow() >= 0 && location.getRow() < getNumRows()
+				&& location.getCol() < getNumRows())
+			return true;
+		return false;
+	}
 
+	public E put(Location location, E e) {
+		if (!isValid(location))
+			throw new IllegalArgumentException("Invalid location:" + location + "!");
+		if (e == null) {
+			throw new NullPointerException("Null obj!");
+		}
+		E oldEle = remove(location);
 
-        /*return 0 <= location.getRow()
-                && location.getRow() < getNumRows()
-                && 0 <= location.getCol()
-                && location.getCol() < getNumCols();*/
-        if (location.getRow() >= 0 && location.getRow() >= 0
-                && location.getRow() < getNumRows()
-                && location.getCol() < getNumRows())
-            return true;
-        return false;
-    }
+		ocpArr.get(location.getRow()).add(new OccupantInCol(e, location.getCol()));
 
-    public E put(Location location, E e) {
-        if (!isValid(location))
-            throw new IllegalArgumentException("Invalid location:"
-                    + location + "!"
-            );
-        if (e == null)
-            throw new NullPointerException("Null obj!");
+		return oldEle;
+	}
 
-        E oldEle = remove(location);
+	public E remove(Location location) {
+		if (!isValid(location))
+			throw new IllegalArgumentException("Invalid location:" + location + "!");
 
-        ocpArr.get(location.getRow()).add(
-                new OccupantInCol(e, location.getCol())
-        );
+		E oldEle = get(location);
+		if (oldEle == null)
+			return null;
 
-        return oldEle;
-    }
+		LinkedList<OccupantInCol> row = ocpArr.get(location.getRow());
 
-    public E remove(Location location) {
-        if (!isValid(location))
-            throw new IllegalArgumentException("Invalid location:"
-                    + location + "!"
-            );
+		if (row != null) {
+			Iterator<OccupantInCol> itr = row.iterator();
+			while (itr.hasNext()) {
+				if (itr.next().getColNum() == location.getCol()) {
+					itr.remove();
+					break;
+				}
+			}
+		}
 
-        E oldEle = get(location);
-        if (oldEle == null) return null;
+		return oldEle;
+	}
 
-        LinkedList<OccupantInCol> row = ocpArr.get(location.getRow());
+	public E get(Location location) {
+		if (!isValid(location)) {
+			throw new IllegalArgumentException("Invalid location:" + location + "!");
+		}
 
-        if (row != null) {
-            Iterator<OccupantInCol> itr = row.iterator();
-            while (itr.hasNext()) {
-                if (itr.next().getColNum() == location.getCol()) {
-                    itr.remove();
-                    break;
-                }
-            }
-        }
+		LinkedList<OccupantInCol> row = ocpArr.get(location.getRow());
 
-        return oldEle;
-    }
+		if (row != null) {
+			for (OccupantInCol ocp : row) {
+				if (location.getCol() == ocp.getColNum()) {
+					return (E) ocp.getOccupant(); // Cast to E
+				}
+			}
+		}
 
-    public E get(Location location) {
-        if (!isValid(location))
-            throw new IllegalArgumentException("Invalid location:"
-                    + location + "!"
-            );
+		return null;
+	}
 
-        LinkedList<OccupantInCol> row = ocpArr.get(location.getRow());
+	public ArrayList<Location> getOccupiedLocations() {
 
-        if(row!=null){
-            for(OccupantInCol ocp : row){
-                if(location.getCol() == ocp.getColNum()){
-                    return (E)ocp.getOccupant(); //Cast to E
-                }
-            }
-        }
+		ArrayList<Location> resultLocs = new ArrayList<Location>();
 
-        return null;
-    }
+		for (int ctr = 0; ctr < getNumRows(); ctr++) {
+			LinkedList<OccupantInCol> row = ocpArr.get(ctr);
+			if (row != null) {
+				for (OccupantInCol ocp : row) {
+					Location location = new Location(ctr, ocp.getColNum());
+					resultLocs.add(location);
+				}
+			}
+		}
 
-    public ArrayList<Location> getOccupiedLocations() {
-
-        ArrayList<Location> resultLocs = new ArrayList<Location>();
-
-        for(int ctr = 0 ; ctr < getNumRows(); ctr++){
-            LinkedList<OccupantInCol> row = ocpArr.get(ctr);
-            if(row!=null){
-                for(OccupantInCol ocp : row) {
-                    Location location = new Location(ctr, ocp.getColNum());
-                    resultLocs.add(location);
-                }
-            }
-        }
-
-        return resultLocs;
-    }
+		return resultLocs;
+	}
 }

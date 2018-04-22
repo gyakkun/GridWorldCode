@@ -28,6 +28,10 @@ import info.gridworld.actor.Rock;
  */
 public class BugRunner
 {
+	
+	private BugRunner() {
+		;
+	}
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();

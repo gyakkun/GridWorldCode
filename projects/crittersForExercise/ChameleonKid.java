@@ -22,8 +22,9 @@ public class ChameleonKid extends ChameleonAlter {
 		int[] dirs = { Location.AHEAD, Location.HALF_CIRCLE };
 		for (Location loc : getLocationsInDirections(dirs)) {
 			Actor tmp = getGrid().get(loc);
-			if (tmp != null)
+			if (tmp != null) {
 				actors.add(tmp);
+			}
 		}
 		return actors;
 	}
@@ -35,8 +36,9 @@ public class ChameleonKid extends ChameleonAlter {
 
 		for (int d : directions) {
 			Location neighborLoc = loc.getAdjacentLocation(getDirection() + d);
-			if (gr.isValid(neighborLoc))
+			if (gr.isValid(neighborLoc)) {
 				locs.add(neighborLoc);
+			}
 		}
 		return locs;
 	}

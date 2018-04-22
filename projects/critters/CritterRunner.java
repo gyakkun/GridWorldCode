@@ -30,6 +30,10 @@ import java.awt.Color;
  */
 public class CritterRunner
 {
+	private CritterRunner() {
+		;
+	}
+	
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();

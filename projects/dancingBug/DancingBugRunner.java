@@ -27,15 +27,17 @@ import java.awt.Color;
  */
 public class DancingBugRunner
 {
+	
+	private DancingBugRunner() {
+		;
+	}
     public static void main(String[] args)
     {
         ActorWorld world = new ActorWorld();
         int [] someTurns = {1,2,3,4,5};
         DancingBug alice = new DancingBug(6,someTurns) ;
         alice.setColor(Color.ORANGE);
-        //SpiralBug bob = new SpiralBug(3);
         world.add(new Location(7, 8), alice);
-        //world.add(new Location(5, 5), bob);
         world.show();
     }
 }
