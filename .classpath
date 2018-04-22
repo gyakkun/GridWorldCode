@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="projects/firstProject"/>
-	<classpathentry kind="src" path="projects/circleBug"/>
-	<classpathentry kind="src" path="projects/spiralBug"/>
-	<classpathentry kind="src" path="projects/boxBug"/>
-	<classpathentry kind="src" path="projects/ZBug"/>
-	<classpathentry kind="src" path="projects/dancingBug"/>
 	<classpathentry kind="src" path="projects/crittersForExercise"/>
+	<classpathentry kind="src" path="projects/boxBug"/>
+	<classpathentry kind="src" path="projects/circleBug"/>
+	<classpathentry kind="src" path="projects/critters"/>
+	<classpathentry kind="src" path="projects/dancingBug"/>
+	<classpathentry kind="src" path="projects/firstProject"/>
+	<classpathentry kind="src" path="projects/Jumper"/>
+	<classpathentry kind="src" path="projects/sparseBoundedGrid"/>
+	<classpathentry kind="src" path="projects/spiralBug"/>
+	<classpathentry kind="src" path="projects/ZBug"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="gridworld.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
