@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gridworld.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/JumperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sonar/10086_java-module/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.sonar/10086_java-module/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sonar/10086_java-module/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sonar/10086_java-module/pmd.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GridWorldCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GridWorldCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridworld.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gridworld.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Jumper/JumperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Jumper/JumperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/Jumper/JumperTestRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Jumper/JumperTestRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/sparseBoundedGrid/SparseBoundedGrid_ref.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/sparseBoundedGrid/SparseGridRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/sparseBoundedGrid/SparseGridRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlter_AutoDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlter_AutoDouble_ref.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/spiralBug/SpiralBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/spiralBug/SpiralBug.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
+    <ignored path="lib/hamcrest-core-1.3.jar" />
+    <ignored path="lib/junit-4.12.jar" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +41,7 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BoxBugRunner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/boxBug/BoxBugRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -110,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projects/Jumper/Jumper.java" />
         <option value="$PROJECT_DIR$/projects/Jumper/JumperRunner.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/ChameleonCritterAlter.java" />
         <option value="$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" />
@@ -133,6 +115,9 @@
         <option value="$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDoubleTest.java" />
         <option value="$PROJECT_DIR$/projects/Jumper/JumperTest.java" />
         <option value="$PROJECT_DIR$/projects/Jumper/JumperTestRef.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/projects/Jumper/Jumper.java" />
+        <option value="$PROJECT_DIR$/test/JumperTest.java" />
       </list>
     </option>
   </component>
@@ -175,7 +160,12 @@
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BoxBugRunner">
+  <component name="RunManager" selected="JUnit.JumperTest">
     <configuration name="BoxBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoxBugRunner" />
       <module name="GridWorldCode" />
@@ -255,13 +245,25 @@
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SparseGridRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SparseGridRunner" />
-      <module name="GridWorldCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JumperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GridWorldCode" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JumperTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="JumperTestRef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GridWorldCode" />
@@ -336,19 +338,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SparseGridRunner" />
       <item itemvalue="JUnit.UnboundedGridAlterAutoDoubleTest" />
       <item itemvalue="JUnit.JumperTestRef" />
       <item itemvalue="Application.BugRunner" />
       <item itemvalue="Application.BoxBugRunner" />
+      <item itemvalue="JUnit.JumperTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JumperTest" />
         <item itemvalue="Application.BoxBugRunner" />
         <item itemvalue="Application.BugRunner" />
         <item itemvalue="JUnit.JumperTestRef" />
         <item itemvalue="JUnit.UnboundedGridAlterAutoDoubleTest" />
-        <item itemvalue="Application.SparseGridRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +378,7 @@
       <workItem from="1524408165647" duration="1605000" />
       <workItem from="1524558084741" duration="147000" />
       <workItem from="1524558615626" duration="12000" />
-      <workItem from="1524559591121" duration="175000" />
+      <workItem from="1524559591121" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -455,13 +457,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524377722085</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fight with sonar AGAIN on laptop.&#10;&#10;Move gridworld.jar into lib folder.&#10;&#10;Try to correctly configure junit, update test folder and others.">
+      <created>1524560014458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1524560014459</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JumperTestRef - 2018.04.22 at 22h 59m 30s.xml">
-      <configuration name="JumperTestRef" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JumperTestRef - 2018.04.22 at 22h 59m 44s.xml">
       <configuration name="JumperTestRef" configurationId="JUnit" />
     </history-entry>
@@ -489,9 +495,12 @@
     <history-entry file="JumperTestRef - 2018.04.22 at 23h 00m 40s.xml">
       <configuration name="JumperTestRef" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JumperTest - 2018.04.24 at 16h 57m 55s.xml">
+      <configuration name="JumperTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43552000" />
+    <option name="totallyTimeSpent" value="44113000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -504,21 +513,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
+      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5010718" side_tool="true" weight="0.32978722" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839228" weight="0.32967034" />
-      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.4994641" weight="0.30638298" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839228" weight="0.3287234" />
+      <window_info active="true" anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.4994641" visible="true" weight="0.30638298" />
       <window_info anchor="right" id="调色板" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4994641" weight="0.32946146" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4994641" weight="0.3287234" />
       <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.15702036" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.15702036" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
       <window_info id="Learn" order="1" />
@@ -532,7 +541,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.31914893" />
@@ -571,6 +579,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <MESSAGE value="1/2 Jumper Class." />
     <MESSAGE value="1/2 Jumper Class AGAIN.&#10;&#10;Delete the former implement based on Actor class. Rebased on Bug class." />
     <MESSAGE value="2/2 Jumper Class and JumperRunner finished." />
@@ -582,7 +591,8 @@
     <MESSAGE value="5/6 Critter Alter: KingCrab and its runner finished.&#10;&#10;Using ref answer implement instead. No null pointer exp." />
     <MESSAGE value="6/6 Critter Alter: QuickCrab and its runner class finished." />
     <MESSAGE value="0.5/3 Grid Alter: Create SparseBoundedGrid class.&#10;&#10;Some methods implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="0.5/3 Grid Alter: Create SparseBoundedGrid class.&#10;&#10;Some methods implemented." />
+    <MESSAGE value="Fight with sonar AGAIN on laptop.&#10;&#10;Move gridworld.jar into lib folder.&#10;&#10;Try to correctly configure junit, update test folder and others." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fight with sonar AGAIN on laptop.&#10;&#10;Move gridworld.jar into lib folder.&#10;&#10;Try to correctly configure junit, update test folder and others." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,27 +626,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/Jumper/JumperRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/critters/ChameleonRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/ImageDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -889,13 +878,6 @@
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/SparseBoundedGrid_ref.java" />
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/test/UnboundedGridAlterAutoDoubleTest.java" />
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDoubleTest.java" />
-    <entry file="file://$PROJECT_DIR$/projects/Jumper/Jumper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDouble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -916,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/Jumper/JumperTestRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/SparseGridRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -936,10 +908,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.sonar/10086_java-module/pmd.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/Jumper/JumperTestRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/JumperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/Jumper/Jumper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/boxBug/BoxBugRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -963,7 +978,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

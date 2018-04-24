@@ -1,3 +1,4 @@
 # Binary files Eclipse generate.
 /bin/
 *.class
+/\.sonar/
