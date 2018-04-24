@@ -14,9 +14,7 @@ public class SparseGridRunner
         ActorWorld world = new ActorWorld();
         world.addGridClass("SparseBoundedGrid_ref");
         world.addGridClass("SparseBoundedGrid");
-        world.addGridClass("UnboundedGridAlter_AutoDouble");
-        world.addGridClass("UnboundedGridAlter_AutoDouble_ref");
-
+        world.addGridClass("UnboundedGridAlterAutoDouble");
         world.add(new Location(2, 2), new Critter());
         world.show();
     }

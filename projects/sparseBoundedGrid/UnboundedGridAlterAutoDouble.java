@@ -3,13 +3,13 @@ import info.gridworld.grid.Location;
 
 import java.util.ArrayList;
 
-public class UnboundedGridAlter_AutoDouble<E>
+public class UnboundedGridAlterAutoDouble<E>
         extends AbstractGrid {
 
     private Object[][] ocpArr;
     private int sideLen;
 
-    public UnboundedGridAlter_AutoDouble(){
+    public UnboundedGridAlterAutoDouble(){
         sideLen = 16;
         ocpArr = new Object[sideLen][sideLen];
     }
