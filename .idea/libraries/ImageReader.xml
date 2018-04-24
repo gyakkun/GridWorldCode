@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ImageReader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ImageReader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

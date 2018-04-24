@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/test/JumperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ImageReader.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/appframework_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ImageReader.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appframework-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/swing-worker-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/imageReaderTest/ImageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/imageReaderTest/myImageIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sonar/10086_java-module/checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sonar/10086_java-module/pmd.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/GridWorldCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GridWorldCode.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -41,13 +47,37 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myImageIO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/myImageIO.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ImageRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,6 +148,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/projects/Jumper/Jumper.java" />
         <option value="$PROJECT_DIR$/test/JumperTest.java" />
+        <option value="$PROJECT_DIR$/projects/imageReaderTest/ImageReaderTest.java" />
+        <option value="$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java" />
       </list>
     </option>
   </component>
@@ -165,7 +197,8 @@
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="imageReaderTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
@@ -195,7 +228,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/projects/sparseBoundedGrid" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gridworld.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gridworld_Ref/Section3/ImageProcessing" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
@@ -212,6 +245,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/imageReaderTest" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -234,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JumperTest">
+  <component name="RunManager" selected="Application.ImageRunner">
     <configuration name="BoxBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoxBugRunner" />
       <module name="GridWorldCode" />
@@ -242,6 +276,11 @@
     </configuration>
     <configuration name="BugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BugRunner" />
+      <module name="GridWorldCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ImageRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImageRunner" />
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -271,23 +310,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JumperTestRef" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="UnboundedGridAlterAutoDoubleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GridWorldCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnboundedGridAlterAutoDoubleTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -338,19 +360,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UnboundedGridAlterAutoDoubleTest" />
       <item itemvalue="JUnit.JumperTestRef" />
       <item itemvalue="Application.BugRunner" />
       <item itemvalue="Application.BoxBugRunner" />
       <item itemvalue="JUnit.JumperTest" />
+      <item itemvalue="Application.ImageRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImageRunner" />
         <item itemvalue="JUnit.JumperTest" />
         <item itemvalue="Application.BoxBugRunner" />
         <item itemvalue="Application.BugRunner" />
         <item itemvalue="JUnit.JumperTestRef" />
-        <item itemvalue="JUnit.UnboundedGridAlterAutoDoubleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +400,7 @@
       <workItem from="1524408165647" duration="1605000" />
       <workItem from="1524558084741" duration="147000" />
       <workItem from="1524558615626" duration="12000" />
-      <workItem from="1524559591121" duration="736000" />
+      <workItem from="1524559591121" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -464,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524560014459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finally work with JUnit in IDEA.&#10;&#10;Modified the test source folder in module setting.&#10;&#10;See test/JumperTest.java, it's runnable.">
+      <created>1524560418182</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1524560418182</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -500,7 +529,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44113000" />
+    <option name="totallyTimeSpent" value="45348000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -512,7 +541,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="54" width="960" height="1026" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
       <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
@@ -523,11 +553,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839228" weight="0.3287234" />
-      <window_info active="true" anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.4994641" visible="true" weight="0.30638298" />
+      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.4994641" weight="0.30638298" />
       <window_info anchor="right" id="调色板" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.4994641" weight="0.3287234" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.15702036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.32339954" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
       <window_info id="Learn" order="1" />
@@ -592,7 +622,8 @@
     <MESSAGE value="6/6 Critter Alter: QuickCrab and its runner class finished." />
     <MESSAGE value="0.5/3 Grid Alter: Create SparseBoundedGrid class.&#10;&#10;Some methods implemented." />
     <MESSAGE value="Fight with sonar AGAIN on laptop.&#10;&#10;Move gridworld.jar into lib folder.&#10;&#10;Try to correctly configure junit, update test folder and others." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fight with sonar AGAIN on laptop.&#10;&#10;Move gridworld.jar into lib folder.&#10;&#10;Try to correctly configure junit, update test folder and others." />
+    <MESSAGE value="Finally work with JUnit in IDEA.&#10;&#10;Modified the test source folder in module setting.&#10;&#10;See test/JumperTest.java, it's runnable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally work with JUnit in IDEA.&#10;&#10;Modified the test source folder in module setting.&#10;&#10;See test/JumperTest.java, it's runnable." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,28 +657,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonCritterAlter.java" />
-    <entry file="file://$PROJECT_DIR$/projects/critters/ChameleonCritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrameResources.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/ChameleonKidTest.java" />
     <entry file="file://$PROJECT_DIR$/projects/crittersForExercise/RockHoundRunner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,6 +970,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/myImageIO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -978,7 +1011,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1037,6 +1070,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>gridworld</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

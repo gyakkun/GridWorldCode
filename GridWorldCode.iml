@@ -27,6 +27,7 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/sparseBoundedGrid" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/imageReaderTest" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
@@ -41,5 +42,16 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="gridworld" level="project" />
+    <orderEntry type="library" exported="" name="appframework-1.0.3" level="project" />
+    <orderEntry type="library" exported="" name="ImageReader" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/swing-worker-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
