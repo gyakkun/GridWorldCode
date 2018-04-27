@@ -27,7 +27,8 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/sparseBoundedGrid" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/projects/imageReaderTest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/imageReaderRef" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/imageReader" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
