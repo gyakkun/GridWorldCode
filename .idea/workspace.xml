@@ -4,22 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="Finish MyMazeBug class.">
-      <change afterPath="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MyMazeBug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/MazeBug2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/EasyMaze.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/FinalMaze01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/FinalMaze02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/FinalMaze03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/FinalMaze04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/FinalMaze05.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/MazeBugRef/map/OneRoadMaze.txt" afterDir="false" />
+    <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/MazeBug/MazeBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/MazeBug/MazeBugRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GridWorldCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GridWorldCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MyMazeBug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunnerRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="lib/hamcrest-core-1.3.jar" />
@@ -54,20 +48,95 @@
       <file leaf-file-name="MazeBugRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MazeBug.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java">
+      <file leaf-file-name="MazeBugRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MazeBug/MazeBugRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyImageProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyImageIO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeBug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MazeBug/MazeBug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeBugRunnerRef.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunnerRef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeBug.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBug.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#644#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasyMaze.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MazeBug/EasyMaze.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -84,16 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bound</find>
-      <find>list</find>
-      <find>OccupantInCol</find>
-      <find>//</find>
-      <find>resize</find>
-      <find />
-      <find>sideLength</find>
-      <find>turn()</find>
-      <find>HALF_RIGHT</find>
-      <find>move</find>
       <find>equal</find>
       <find>getOccupiedLocations</find>
       <find>setD</find>
@@ -114,10 +173,23 @@
       <find>direction</find>
       <find>dir</find>
       <find>isvisit</find>
+      <find>move</find>
+      <find>isend</find>
+      <find>(gr</find>
+      <find>public</find>
+      <find>R</find>
+      <find>RGBDate</find>
+      <find>if (index</find>
+      <find>Exce</find>
+      <find>printstack</find>
+      <find>0xff</find>
     </findStrings>
     <replaceStrings>
       <replace>\t\t//</replace>
       <replace>dir</replace>
+      <replace>private</replace>
+      <replace>rgbDate</replace>
+      <replace>OXFF</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/projects/critters</dir>
@@ -175,11 +247,15 @@
         <option value="$PROJECT_DIR$/projects/MazeBug/mazeBug/info/gridworld/maze/MazeBugRunner.java" />
         <option value="$PROJECT_DIR$/framework/info/gridworld/actor/UnBoundedGridWorld.java" />
         <option value="$PROJECT_DIR$/projects/MazeBugRef/MazeBug2.java" />
-        <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBug.java" />
         <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRef.java" />
         <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MyMazeBug.java" />
-        <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java" />
         <option value="$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java" />
+        <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBug.java" />
+        <option value="$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java" />
+        <option value="$PROJECT_DIR$/projects/MazeBug/MazeBugRunner.java" />
+        <option value="$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunnerRef.java" />
+        <option value="$PROJECT_DIR$/projects/MazeBug/MazeBug.java" />
+        <option value="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java" />
       </list>
     </option>
   </component>
@@ -199,9 +275,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="373" />
     <option name="y" value="54" />
-    <option name="width" value="1165" />
+    <option name="width" value="960" />
     <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -212,9 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,43 +297,21 @@
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="gridworld" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="gridworld" type="462c0819:PsiDirectoryNode" />
-              <item name="actor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="gridworld" type="462c0819:PsiDirectoryNode" />
-              <item name="grid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gyakkunImageReader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,13 +339,10 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/framework/info/gridworld/gui" />
-      <recent name="$PROJECT_DIR$/projects" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -303,10 +350,17 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/MazeBug" />
       <recent name="$PROJECT_DIR$/projects/MazeBugRef" />
       <recent name="$PROJECT_DIR$/projects" />
       <recent name="$PROJECT_DIR$/projects/imageReaderTest" />
       <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework/info/gridworld/gui" />
+      <recent name="$PROJECT_DIR$/projects" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,11 +386,6 @@
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MazeBugRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MazeBugRunner" />
-      <module name="GridWorldCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="MazeBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="info.gridworld.maze.MazeBugRunner" />
       <module name="GridWorldCode" />
@@ -347,6 +396,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="MazeBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MazeBugRunner" />
+      <module name="GridWorldCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="MyImageRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyImageRunner" />
@@ -444,7 +498,9 @@
       <workItem from="1524988072855" duration="6000" />
       <workItem from="1524988823332" duration="2604000" />
       <workItem from="1525089873709" duration="6009000" />
-      <workItem from="1525590534265" duration="7786000" />
+      <workItem from="1525590534265" duration="7919000" />
+      <workItem from="1525599442919" duration="153000" />
+      <workItem from="1525599650596" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -558,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525593247611</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Finish MyMazeBug class.">
+      <created>1525598330550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1525598330550</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -594,7 +657,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66752000" />
+    <option name="totallyTimeSpent" value="68846000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -610,31 +673,31 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
-      <window_info active="true" anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.50428724" side_tool="true" visible="true" weight="0.23297872" />
+      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.50551873" side_tool="true" weight="0.23296703" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50321543" side_tool="true" weight="0.3148936" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.49448124" weight="0.22527473" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49785638" weight="0.3287234" />
-      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.49571276" visible="true" weight="0.23297872" />
       <window_info anchor="right" id="调色板" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49779248" weight="0.32021275" />
       <window_info id="Capture Tool" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.18113612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.11521972" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info id="Learn" order="1" />
       <window_info id="Structure" order="4" sideWeight="0.44285715" side_tool="true" weight="0.27924946" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.3620309" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.41170213" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -886,16 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -920,25 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrameResources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
@@ -955,33 +989,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBug/FinalMaze01.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/UnBoundedGridWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#2919#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/UnBoundedGridWorld.java" />
     <entry file="file://$PROJECT_DIR$/projects/Jumper/JumperRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBug/OneRoadMaze.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBug/EasyMaze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1012,9 +1024,6 @@
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/map/EasyMaze.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar:///usr/local/lib/jdk8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1047,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/lib/jdk8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1061,27 +1063,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="555" column="20" selection-start-line="555" selection-start-column="20" selection-end-line="555" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/ActorWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MyMazeBug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="172" column="31" lean-forward="true" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,24 +1088,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRef.java">
+    <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRef.java" />
+    <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="140" column="49" selection-start-line="140" selection-end-line="174" selection-end-column="5" />
+        <state relative-caret-position="924">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/MazeBug/EasyMaze.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/gui/WorldFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBugRunnerRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBugRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MazeBugRef/MazeBug.java">
+    <entry file="file://$PROJECT_DIR$/projects/MazeBug/info/gridworld/maze/MazeBug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/MazeBug/MazeBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/MazeBug/MazeBugRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

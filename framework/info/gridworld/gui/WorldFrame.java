@@ -553,7 +553,7 @@ public class WorldFrame<T> extends JFrame {
 			a = new Flower();
 		}
 		if (act.equals("projects/MazeBug")) {
-			a = new MyMazeBug();
+			a = new MazeBug();
 		}
 		return a;
 	}

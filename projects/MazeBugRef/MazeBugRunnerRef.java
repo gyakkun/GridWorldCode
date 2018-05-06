@@ -9,7 +9,7 @@ import java.awt.Color;
  * This class runs a world that contains maze bugs. <br />
  * This class is not tested on the AP CS A and AB exams.
  */
-public class MazeBugRunner
+public class MazeBugRunnerRef
 {
     public static void main(String[] args)
     {
@@ -26,7 +26,6 @@ public class MazeBugRunner
         		world.add(new Location(i,j),new Rock());
         	}        	
         }*/
-        world.add(new Location(0,0), new MazeBug());
         world.add(new Location(2,2), new MazeBug2());
         world.add(new Location(1,1),new Rock());
         world.show();

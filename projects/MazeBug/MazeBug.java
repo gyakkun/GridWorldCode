@@ -1,37 +1,35 @@
-package info.gridworld.maze;
-
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Bug;
 import info.gridworld.actor.Flower;
 import info.gridworld.actor.Rock;
-import info.gridworld.grid.*;
+import info.gridworld.grid.Grid;
+import info.gridworld.grid.Location;
 
-import java.awt.Color;
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Stack;
-
-import javax.swing.JOptionPane;
 
 /**
  * A <code>MazeBug</code> can find its way in a maze. <br />
  * The implementation of this class is testable on the AP CS A and AB exams.
  */
-public class MyMazeBug extends Bug {
-    public Location next;
-    public Location last;
-    public boolean isEnd = false;
-    public Stack<ArrayList<Location>> crossLocation = new Stack<ArrayList<Location>>();
-    public Integer stepCount = 0;
-    boolean hasShown = false;//final message has been shown
+public class MazeBug extends Bug {
+    private Location next;
+    private Location last;
+    private boolean isEnd = false;
+    private Stack<ArrayList<Location>> crossLocation = new Stack<ArrayList<Location>>();
+    private Integer stepCount = 0;
+    private boolean hasShown = false;//final message has been shown
 
     //Matrix to store visited locations.
-    public boolean isVisit[][];
+    private boolean isVisit[][];
 
     //List to store some directions.
-    ArrayList<Location> branch;
+    private ArrayList<Location> branch;
 
     //Counter for each direction moves.
-    int left, right, front, back;
+    private int left, right, front, back;
 
 
     /**
@@ -40,7 +38,7 @@ public class MyMazeBug extends Bug {
      * @ param length
      * the side length
      */
-    public MyMazeBug() {
+    public MazeBug() {
         int size = 100;
         setColor(Color.GREEN);
         last = new Location(0, 0);
@@ -65,9 +63,9 @@ public class MyMazeBug extends Bug {
      */
     public void act() {
         boolean willMove = canMove();
-        if (isEnd == true) {
+        if (isEnd) {
             //to show step count when reach the goal
-            if (hasShown == false) {
+            if (!hasShown) {
                 String msg = stepCount.toString() + " steps";
                 JOptionPane.showMessageDialog(null, msg);
                 hasShown = true;
@@ -93,8 +91,9 @@ public class MyMazeBug extends Bug {
      */
     public ArrayList<Location> getValid(Location loc) {
         Grid<Actor> gr = getGrid();
-        if (gr == null)
+        if (gr == null) {
             return null;
+        }
         ArrayList<Location> valid = new ArrayList<>();
 
         int r, c;
@@ -194,8 +193,9 @@ public class MyMazeBug extends Bug {
      */
     public void move() {
         Grid<Actor> gr = getGrid();
-        if (gr == null)
+        if (gr == null) {
             return;
+        }
         Location loc = getLocation();
         if (gr.isValid(next)) {
             setDirection(getLocation().getDirectionToward(next));

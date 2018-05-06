@@ -9,11 +9,16 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class MyImageIO implements IImageIO {
-    private final static int BF_HEAD_BYTE = 14;
-    private final static int BF_INFO_BYTE = 40;
-    private final static int FOUR_BYTE = 4;
-    private final static int MULTICOLOUR = 24;
-    private final static int GRAY = 8;
+    private static final int BF_HEAD_BYTE = 14;
+    private static final int EIGHT = 8;
+    private static final int TWENTY_FOUR = 24;
+    private static final int TWOFIVEFIVE = 255;
+    private static final int FIFTEEN = 15;
+    private static final int OXFF = 0xff;
+    private static final int BF_INFO_BYTE = 40;
+    private static final int FOUR_BYTE = 4;
+    private static final int MULTICOLOUR = 24;
+    private static final int GRAY = 8;
     private int bitCount;
 
     public Image myRead(String arg0) throws IOException {
@@ -22,18 +27,17 @@ public class MyImageIO implements IImageIO {
         byte bInfo[] = new byte[BF_INFO_BYTE];
         byte originalRGB[];
         int width, height, imageSize, npad, pixelSize, offset;
-        int RGBDate[];
+        int rgbDate[];
         Image image = null;
 
-        try {
             file.read(bHead, 0, BF_HEAD_BYTE);
             file.read(bInfo, 0, BF_INFO_BYTE);
 
             // Offset in file format spec
-            offset = (((int) bHead[13] & 0xff) << 24)
-                    | (((int) bHead[12] & 0xff) << 16)
-                    | (((int) bHead[11] & 0xff) << 8)
-                    | (int) bHead[10] & 0xff;
+            offset = (((int) bHead[13] & OXFF) << TWENTY_FOUR)
+                    | (((int) bHead[12] & OXFF) << 16)
+                    | (((int) bHead[11] & OXFF) << EIGHT)
+                    | (int) bHead[10] & OXFF;
 
             //The actual location of binary code minus 54 Byte(bHead + bInfo)
             //Equals the starting address of actual bitmap matrix.
@@ -41,26 +45,26 @@ public class MyImageIO implements IImageIO {
             offset -= 54;
 
             //Width of bitmap
-            width = (((int) bInfo[7] & 0xff) << 24)
-                    | (((int) bInfo[6] & 0xff) << 16)
-                    | (((int) bInfo[5] & 0xff) << 8)
-                    | (int) bInfo[4] & 0xff;
+            width = (((int) bInfo[7] & OXFF) << TWENTY_FOUR)
+                    | (((int) bInfo[6] & OXFF) << 16)
+                    | (((int) bInfo[5] & OXFF) << EIGHT)
+                    | (int) bInfo[4] & OXFF;
 
             //Height of bitmap
-            height = (((int) bInfo[11] & 0xff) << 24)
-                    | (((int) bInfo[10] & 0xff) << 16)
-                    | (((int) bInfo[9] & 0xff) << 8)
-                    | (int) bInfo[8] & 0xff;
+            height = (((int) bInfo[11] & OXFF) << TWENTY_FOUR)
+                    | (((int) bInfo[10] & OXFF) << 16)
+                    | (((int) bInfo[9] & OXFF) << EIGHT)
+                    | (int) bInfo[EIGHT] & OXFF;
 
             //Total bits of bitmap
-            bitCount = (((int) bInfo[15] & 0xff) << 8) | (int) bInfo[14] & 0xff;
+            bitCount = (((int) bInfo[FIFTEEN] & OXFF) << EIGHT) | (int) bInfo[14] & OXFF;
 
             //The actual image (bitmap) size occupying in disk
             //rather than the size of file.
-            imageSize = (((int) bInfo[23] & 0xff) << 24)
-                    | (((int) bInfo[22] & 0xff) << 16)
-                    | (((int) bInfo[21] & 0xff) << 8)
-                    | (int) bInfo[20] & 0xff;
+            imageSize = (((int) bInfo[23] & OXFF) << TWENTY_FOUR)
+                    | (((int) bInfo[22] & OXFF) << 16)
+                    | (((int) bInfo[21] & OXFF) << EIGHT)
+                    | (int) bInfo[20] & OXFF;
 
 
             if (bitCount == MULTICOLOUR) {
@@ -82,22 +86,22 @@ public class MyImageIO implements IImageIO {
 
                 //Read in all RGB value.
                 file.read(originalRGB, 0, pixelSize);
-                RGBDate = new int[height * width];
+                rgbDate = new int[height * width];
 
                 int index = 0;
                 for (int j = 0; j < height; j++) {
                     for (int i = 0; i < width; i++) {
-                        RGBDate[width * (height - j - 1) + i] =
-                                (255 & 0xff) << 24
-                                        | (((int) originalRGB[index + 2] & 0xff) << 16)
-                                        | (((int) originalRGB[index + 1] & 0xff) << 8)
-                                        | (int) originalRGB[index] & 0xff;
+                        rgbDate[width * (height - j - 1) + i] =
+                                (TWOFIVEFIVE & OXFF) << TWENTY_FOUR
+                                        | (((int) originalRGB[index + 2] & OXFF) << 16)
+                                        | (((int) originalRGB[index + 1] & OXFF) << EIGHT)
+                                        | (int) originalRGB[index] & OXFF;
                         index += 3;
                     }
                     index += npad;
                 }
 
-                image = Toolkit.getDefaultToolkit().createImage(new MemoryImageSource(width, height, RGBDate, 0, width));
+                image = Toolkit.getDefaultToolkit().createImage(new MemoryImageSource(width, height, rgbDate, 0, width));
             }
 
             if (bitCount == GRAY) {
@@ -121,44 +125,43 @@ public class MyImageIO implements IImageIO {
 
                 //Read in all RGB value.
                 file.read(originalRGB, 0, pixelSize);
-                RGBDate = new int[height * width];
+                rgbDate = new int[height * width];
 
                 int index = offset;
                 for (int j = 0; j < height; j++) {
                     for (int i = 0; i < width; i++) {
-                        if (index >= pixelSize)
+                        if (index >= pixelSize) {
                             index = 0;
-                        RGBDate[width * (height - j - 1) + i] =
-                                (255 & 0xff) << 24
-                                        | (((int) originalRGB[index] & 0xff) << 16)
-                                        | (((int) originalRGB[index] & 0xff) << 8)
-                                        | (int) originalRGB[index] & 0xff;
+                        }
+                        rgbDate[width * (height - j - 1) + i] =
+                                (TWOFIVEFIVE & OXFF) << TWENTY_FOUR
+                                        | (((int) originalRGB[index] & OXFF) << 16)
+                                        | (((int) originalRGB[index] & OXFF) << EIGHT)
+                                        | (int) originalRGB[index] & OXFF;
                         index += 1;
                     }
                     index += npad;
                 }
 
-                image = Toolkit.getDefaultToolkit().createImage(new MemoryImageSource(width, height, RGBDate, 0, width));
+                image = Toolkit.getDefaultToolkit().createImage(new MemoryImageSource(width, height, rgbDate, 0, width));
             }
 
             file.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
 
         return image;
     }
 
     public Image myWrite(Image image, String file) throws IOException {
-        try {
             int height = image.getHeight(null);
             int width = image.getWidth(null);
             int fileType;
 
-            if (bitCount == MULTICOLOUR)
+            if (bitCount == MULTICOLOUR) {
                 fileType = BufferedImage.TYPE_3BYTE_BGR;
-            else
+            } else {
                 fileType = BufferedImage.TYPE_BYTE_GRAY;
+            }
 
             //Create an image
             BufferedImage bufferImg = new BufferedImage(width, height, fileType);
@@ -167,9 +170,7 @@ public class MyImageIO implements IImageIO {
             //File open handle
             File iFile = new File(file + ".bmp");
             ImageIO.write(bufferImg, "bmp", iFile);
-        } catch (Exception err) {
-            err.printStackTrace();
-        }
+
 
         return image;
     }

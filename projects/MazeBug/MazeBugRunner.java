@@ -1,8 +1,7 @@
-package info.gridworld.maze;
-
 import info.gridworld.actor.ActorWorld;
-import info.gridworld.grid.Location;
 import info.gridworld.actor.Rock;
+import info.gridworld.grid.Location;
+import info.gridworld.maze.MazeBug;
 
 /**
  * This class runs a world that contains maze bugs. <br />
