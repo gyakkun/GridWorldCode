@@ -29,6 +29,9 @@
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/projects/imageReaderRef" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/projects/gyakkunImageReader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/MazeBug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/framework/info/gridworld" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/framework" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
@@ -42,7 +45,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="gridworld" level="project" />
     <orderEntry type="library" exported="" name="appframework-1.0.3" level="project" />
     <orderEntry type="library" exported="" name="ImageReader" level="project" />
     <orderEntry type="module-library" exported="">
@@ -54,5 +56,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="framework" level="project" />
   </component>
 </module>

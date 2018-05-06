@@ -31,7 +31,7 @@ public class BoundedGrid<E> extends AbstractGrid<E>
     private Object[][] occupantArray; // the array storing the grid elements
 
     /**
-     * Constructs an empty bounded grid with the given dimensions.
+ * Constructs an empty bounded grid with the given dimensions.
      * (Precondition: <code>rows > 0</code> and <code>cols > 0</code>.)
      * @param rows number of rows in BoundedGrid
      * @param cols number of columns in BoundedGrid
