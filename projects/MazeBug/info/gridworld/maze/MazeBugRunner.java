@@ -13,6 +13,7 @@ public class MazeBugRunner {
 
         ActorWorld world = new ActorWorld();
         world.add(new Location(0, 0), new MazeBug());
+        world.add(new Location(0, 1), new MazeBugBasic());
 
         world.add(new Location(1, 1), new Rock());
         world.show();
