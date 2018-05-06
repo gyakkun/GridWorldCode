@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea6eebe4-29e5-4cf2-b020-339f2367e289" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/gyakkunImageReader/MyImageRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GridWorldCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GridWorldCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/imageReaderTest/ImageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/imageReaderTest/myImageIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="lib/hamcrest-core-1.3.jar" />
@@ -40,38 +43,97 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImageRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myImageIO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6660156">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MyImageProcessor.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#308#309#0" expanded="true" />
+                    <element signature="e#355#356#0" expanded="true" />
+                    <element signature="e#732#733#0" expanded="true" />
+                    <element signature="e#779#780#0" expanded="true" />
+                    <element signature="e#1156#1157#0" expanded="true" />
+                    <element signature="e#1203#1204#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MyImageRunner.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="myImageIO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="25" column="27" lean-forward="true" selection-end-line="176" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MyImageIO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="14" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RGBImageFilter.java" pinned="false" current-in-tab="false">
+            <entry file="jar:///usr/local/lib/jdk8/src.zip!/java/awt/image/RGBImageFilter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1651">
+                  <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ImageProcessor.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ImageRunner.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,14 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flower</find>
-      <find>isValid</find>
-      <find>ChameleonCritter</find>
-      <find>gif</find>
-      <find>imageExtension</find>
-      <find>get</find>
-      <find>grid</find>
-      <find>getNeighbors</find>
       <find>act</find>
       <find>processactors</find>
       <find>act()</find>
@@ -104,11 +158,23 @@
       <find>getMoveLocations</find>
       <find>selectMoveLocation</find>
       <find>bound</find>
-      <find>getOccupiedLocations</find>
       <find>list</find>
       <find>OccupantInCol</find>
       <find>//</find>
       <find>resize</find>
+      <find />
+      <find>sideLength</find>
+      <find>turn()</find>
+      <find>HALF_RIGHT</find>
+      <find>move</find>
+      <find>equal</find>
+      <find>getOccupiedLocations</find>
+      <find>setD</find>
+      <find>setdi</find>
+      <find>canmove</find>
+      <find>removeSelfFromGrid</find>
+      <find>myimageio</find>
+      <find>imageio</find>
     </findStrings>
     <replaceStrings>
       <replace>\t\t//</replace>
@@ -156,6 +222,15 @@
         <option value="$PROJECT_DIR$/projects/imageReaderTest/ImageReaderTest.java" />
         <option value="$PROJECT_DIR$/projects/imageReaderTest/ImageRunner.java" />
         <option value="$PROJECT_DIR$/projects/imageReaderTest/ImageProcessor.java" />
+        <option value="$PROJECT_DIR$/framework/info/gridworld/grid/Location.java" />
+        <option value="$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java" />
+        <option value="$PROJECT_DIR$/framework/info/gridworld/actor/Bug.java" />
+        <option value="$PROJECT_DIR$/projects/imageReader/ImageProcessor.java" />
+        <option value="$PROJECT_DIR$/projects/imageReader/MyImageProcessor.java" />
+        <option value="$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java" />
+        <option value="$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java" />
+        <option value="$PROJECT_DIR$/projects/imageReader/MyImageIO.java" />
+        <option value="$PROJECT_DIR$/projects/imageReader/MyImageRunner.java" />
       </list>
     </option>
   </component>
@@ -174,11 +249,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="y" value="54" />
-    <option name="width" value="960" />
-    <option name="height" value="1026" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="153" />
+    <option name="y" value="117" />
+    <option name="width" value="1165" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="添加" />
@@ -188,6 +263,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,21 +278,10 @@
               <item name="GridWorldCode" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="GridWorldCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +289,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="gridworldcode_ant_test" />
-    <property name="SearchEverywhereHistoryKey" value="_ref&#9;PSI&#9;JAVA://UnboundedGridAlter_AutoDouble_ref" />
+    <property name="SearchEverywhereHistoryKey" value="bug.java&#9;FILE&#9;file:///home/steve/eclipse-workspace/GridWorldCode/framework/info/gridworld/actor/Bug.java&#10;actor.java&#9;FILE&#9;file:///home/steve/eclipse-workspace/GridWorldCode/framework/info/gridworld/actor/Actor.java&#10;ACTOR.JAVA&#9;null&#9;null&#10;abstrac&#9;FILE&#9;file:///home/steve/eclipse-workspace/GridWorldCode/framework/info/gridworld/grid/AbstractGrid.java&#10;boundedgrid&#9;FILE&#9;file:///home/steve/eclipse-workspace/GridWorldCode/framework/info/gridworld/actor/UnBoundedGridWorld.java&#10;location&#9;FILE&#9;file:///home/steve/eclipse-workspace/GridWorldCode/framework/info/gridworld/grid/Location.java&#10;_ref&#9;PSI&#9;JAVA://UnboundedGridAlter_AutoDouble_ref" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -269,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageRunner">
+  <component name="RunManager" selected="Application.MyImageRunner">
     <configuration name="BoxBugRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoxBugRunner" />
       <module name="GridWorldCode" />
@@ -285,6 +352,11 @@
       <module name="GridWorldCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="MyImageRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyImageRunner" />
+      <module name="GridWorldCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -294,23 +366,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JumperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JumperTestRef" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GridWorldCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JumperTestRef" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -361,19 +416,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.JumperTestRef" />
       <item itemvalue="Application.BugRunner" />
       <item itemvalue="Application.BoxBugRunner" />
       <item itemvalue="JUnit.JumperTest" />
       <item itemvalue="Application.ImageRunner" />
+      <item itemvalue="Application.MyImageRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyImageRunner" />
         <item itemvalue="Application.ImageRunner" />
         <item itemvalue="JUnit.JumperTest" />
         <item itemvalue="Application.BoxBugRunner" />
         <item itemvalue="Application.BugRunner" />
-        <item itemvalue="JUnit.JumperTestRef" />
       </list>
     </recent_temporary>
   </component>
@@ -406,6 +461,11 @@
       <workItem from="1524575367092" duration="1907000" />
       <workItem from="1524656695270" duration="282000" />
       <workItem from="1524657011750" duration="1838000" />
+      <workItem from="1524987854676" duration="53000" />
+      <workItem from="1524988072855" duration="6000" />
+      <workItem from="1524988823332" duration="2604000" />
+      <workItem from="1525089873709" duration="6009000" />
+      <workItem from="1525590534265" duration="1160000" />
     </task>
     <task id="LOCAL-00001" summary="1/2 Jumper Class.">
       <created>1524275116883</created>
@@ -541,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50294000" />
+    <option name="totallyTimeSpent" value="60126000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -553,9 +613,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="54" width="960" height="1026" extended-state="4" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
+      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -563,11 +625,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839228" weight="0.3287234" />
-      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.49732047" weight="0.30531916" />
+      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.49732047" visible="true" weight="0.30531916" />
       <window_info anchor="right" id="调色板" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49779248" weight="0.32021275" />
       <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.35320088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.17684887" />
       <window_info id="设计器" order="6" />
       <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
       <window_info id="Learn" order="1" />
@@ -581,11 +643,42 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.31914893" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Learn" order="1" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" x="22" y="402" width="1876" height="340" id="Run" internal_type="SLIDING" order="4" sideWeight="0.49732047" weight="0.30531916" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.406181" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.49779248" weight="0.32021275" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.31914893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5022075" side_tool="true" weight="0.34175825" />
+      <window_info anchor="right" id="调色板" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49839228" weight="0.3287234" />
+      <window_info id="设计器" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.49006623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.55714285" visible="true" weight="0.4153318" />
+      <window_info anchor="bottom" x="27" y="432" width="1866" height="299" id="Messages" order="10" sideWeight="0.5016077" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3285102" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" x="1274" y="192" width="531" height="538" id="TODO" order="9" side_tool="true" type="WINDOWED" weight="0.329582" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="4" sideWeight="0.44285715" side_tool="true" weight="0.27924946" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.41170213" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -669,62 +762,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/gridworld.jar!/info/gridworld/actor/Actor.class" />
-    <entry file="jar://$PROJECT_DIR$/gridworld.jar!/info/gridworld/grid/UnboundedGrid.class" />
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/Grid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/SparseGridNode.java" />
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/AbstractGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/gridworld.jar!/info/gridworld/grid/Grid.class" />
     <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/UnboundedGrid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -753,24 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlter_AutoDouble_ref.java" />
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/SparseBoundedGrid_ref.java" />
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/test/UnboundedGridAlterAutoDoubleTest.java" />
     <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDoubleTest.java" />
-    <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDouble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/Jumper/JumperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -803,15 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,13 +844,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/imageReaderTest/ImageReaderTest.java" />
-    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/ImageReader.jar!/imagereader/IImageIO.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -961,20 +968,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/local/lib/jdk8/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sparseBoundedGrid/UnboundedGridAlterAutoDouble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/ZBug/ZBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/boxBug/BoxBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="126" column="67" selection-start-line="126" selection-start-column="65" selection-end-line="126" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/BoundedGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="30" column="76" lean-forward="true" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/UnBoundedGridWorld.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/grid/AbstractGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#5721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/info/gridworld/actor/Bug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="75" selection-start-line="75" selection-end-line="76" />
+          <folding>
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/lib/jdk8/src.zip!/java/awt/image/RGBImageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1651">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="147">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/ImageRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/imageReaderRef/myImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="525">
+          <caret line="25" column="27" lean-forward="true" selection-end-line="176" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/gyakkunImageReader/MyImageRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -995,7 +1125,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

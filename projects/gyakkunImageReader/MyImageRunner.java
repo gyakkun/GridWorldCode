@@ -2,14 +2,12 @@ import imagereader.Runner;
 //import imagereader.IImageIO;
 //import imagereader.IImageProcessor;
 
-public final class ImageRunner {
+public final class MyImageRunner {
 
-    private ImageRunner() {
-    }
-
+    private MyImageRunner() {}
     public static void main(String[] args) {
-        myImageIO imageioer = new myImageIO();
+        MyImageIO ioInstance = new MyImageIO();
         ImageProcessor processor = new ImageProcessor();
-        Runner.run(imageioer, processor);
+        Runner.run(ioInstance, processor);
     }
 }

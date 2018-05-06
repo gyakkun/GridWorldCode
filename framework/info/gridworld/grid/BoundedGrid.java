@@ -1,6 +1,6 @@
-/* 
+/*
  * AP(r) Computer Science GridWorld Case Study:
- * Copyright(c) 2002-2006 College Entrance Examination Board 
+ * Copyright(c) 2002-2006 College Entrance Examination Board
  * (http://www.collegeboard.com).
  *
  * This code is free software; you can redistribute it and/or modify
@@ -11,7 +11,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * @author Alyce Brady
  * @author APCS Development Committee
  * @author Cay Horstmann
@@ -109,7 +109,7 @@ public class BoundedGrid<E> extends AbstractGrid<E>
         if (!isValid(loc))
             throw new IllegalArgumentException("Location " + loc
                     + " is not valid");
-        
+
         // Remove the object from the grid.
         E r = get(loc);
         occupantArray[loc.getRow()][loc.getCol()] = null;

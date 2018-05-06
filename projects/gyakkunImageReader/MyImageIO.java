@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class myImageIO implements IImageIO {
+public class MyImageIO implements IImageIO {
     private final static int BF_HEAD_BYTE = 14;
     private final static int BF_INFO_BYTE = 40;
     private final static int FOUR_BYTE = 4;
