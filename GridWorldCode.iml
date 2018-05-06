@@ -32,6 +32,7 @@
       <sourceFolder url="file://$MODULE_DIR$/projects/MazeBug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/framework/info/gridworld" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projects/MazeBugRef" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />

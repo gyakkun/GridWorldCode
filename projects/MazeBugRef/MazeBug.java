@@ -1,8 +1,9 @@
-package info.gridworld.maze;
+//package info.gridworld.maze;
 
 import info.gridworld.actor.Actor;
 import info.gridworld.actor.Bug;
 import info.gridworld.actor.Flower;
+import info.gridworld.actor.Rock;
 import info.gridworld.grid.*;
 
 import java.awt.Color;
@@ -24,15 +25,27 @@ public class MazeBug extends Bug {
 	public Integer stepCount = 0;
 	boolean hasShown = false;//final message has been shown
 
+    public boolean isVisit[][];
+    ArrayList<Location> branch;
+
 	/**
 	 * Constructs a box bug that traces a square of a given side length
 	 * 
-	 * @param length
+	 * @ param length
 	 *            the side length
 	 */
 	public MazeBug() {
+        int size = 100;
 		setColor(Color.GREEN);
 		last = new Location(0, 0);
+        isVisit = new boolean[size][size];
+        for (int i = 0; i < size; i++)
+            for (int j = 0; j < size; j++)
+                isVisit[i][j] = false;
+		Location loc = getLocation();
+
+        branch = new ArrayList<Location>();
+        branch.add(loc);
 	}
 
 	/**
@@ -48,10 +61,14 @@ public class MazeBug extends Bug {
 				hasShown = true;
 			}
 		} else if (willMove) {
+            isVisit[next.getRow()][next.getCol()] = true;
 			move();
 			//increase step count when move 
 			stepCount++;
-		} 
+		} else {
+            goBack();
+			stepCount++;
+        }
 	}
 
 	/**
@@ -66,7 +83,27 @@ public class MazeBug extends Bug {
 		if (gr == null)
 			return null;
 		ArrayList<Location> valid = new ArrayList<Location>();
-		
+        int row, col;
+        int[] dirs =
+            { Location.AHEAD, Location.LEFT, Location.RIGHT, Location.HALF_CIRCLE };
+
+        for (int d : dirs) {
+            Location neighborLoc = loc.getAdjacentLocation(getDirection() + d);
+            row = neighborLoc.getRow();
+            col = neighborLoc.getCol();
+
+            if (gr.isValid(neighborLoc)) {
+                Actor a = gr.get(neighborLoc);
+                if ((a == null || a instanceof Flower) && !isVisit[row][col]) {
+                    valid.add(neighborLoc);
+                } else if (a instanceof Rock) {
+                    Color r = Color.RED;
+                    if (r.equals(a.getColor()))
+                        isEnd = true;
+                }
+            }
+        }
+
 		return valid;
 	}
 
@@ -77,7 +114,27 @@ public class MazeBug extends Bug {
 	 * @return true if this bug can move.
 	 */
 	public boolean canMove() {
-		return false;
+		ArrayList<Location> loc = getValid(getLocation());
+        int romdom, locSize;
+
+
+        if (loc.isEmpty()) {
+            return false;
+        } else {
+            branch.add(getLocation());
+            locSize = loc.size();
+
+            if (locSize >= 2) {
+                crossLocation.push(branch);
+                branch = new ArrayList<Location>();
+            }
+
+            romdom = (int)(Math.random() * (locSize - 1));
+            next = loc.get(romdom);
+            last = getLocation();
+        }
+
+        return true;
 	}
 	/**
 	 * Moves the bug forward, putting a flower into the location it previously
@@ -96,4 +153,12 @@ public class MazeBug extends Bug {
 		Flower flower = new Flower(getColor());
 		flower.putSelfInGrid(gr, loc);
 	}
+
+    public void goBack() {
+        if (branch.isEmpty())
+            branch = crossLocation.pop();
+        int branchSize = branch.size();
+        next = branch.remove(branchSize - 1);
+        move();
+    }
 }
